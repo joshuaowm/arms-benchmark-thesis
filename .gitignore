@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bak
+*.bak_*
+dataset/
+outputs/
+logs/
+prepared_*/
+.DS_Store
+Thumbs.db
+desktop.ini

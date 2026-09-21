@@ -1,0 +1,267 @@
+{
+ "saved": "2026-08-18T03:11:28",
+ "pick": 3,
+ "note": "plate_ann_id indexes full_plate/annotations.coco.json, which is what notebooks/visuals.ipynb PICKS uses. uid is <site>:<grid_1024 ann id>.",
+ "blocks": {
+  "Belgium/Crepidula fornicata": [
+   {
+    "uid": "Belgium:1720",
+    "plate_ann_id": 1726,
+    "area_px": 115510,
+    "split": "train",
+    "kind": "instance",
+    "plate": "ARMS_BelgiumCoast_AJJC81_20200506_20201012_3574091"
+   },
+   {
+    "uid": "Belgium:1610",
+    "plate_ann_id": 1615,
+    "area_px": 105196,
+    "split": "val",
+    "kind": "instance",
+    "plate": "ARMS_BelgiumCoast_AJJC81_20200506_20201012_3574089"
+   },
+   {
+    "uid": "Belgium:538",
+    "plate_ann_id": 538,
+    "area_px": 100534,
+    "split": "test",
+    "kind": "instance",
+    "plate": "ARMS_BelgiumCoast_AJJC81_20200506_20201012_3574079"
+   }
+  ],
+  "Belgium/Hydrozoa": [
+   {
+    "uid": "Belgium:3910",
+    "plate_ann_id": 3931,
+    "area_px": 2427,
+    "split": "train",
+    "kind": "area",
+    "plate": "ARMS_BelgiumCoast_AJJC86_20200506_20201012_3574135"
+   },
+   {
+    "uid": "Belgium:3911",
+    "plate_ann_id": 3932,
+    "area_px": 2041,
+    "split": "train",
+    "kind": "area",
+    "plate": "ARMS_BelgiumCoast_AJJC86_20200506_20201012_3574135"
+   },
+   {
+    "uid": "Belgium:2446",
+    "plate_ann_id": 2459,
+    "area_px": 1204,
+    "split": "train",
+    "kind": "area",
+    "plate": "ARMS_BelgiumCoast_AJJC86_20200506_20201012_3574117"
+   }
+  ],
+  "Belgium/Membraniporoidea": [
+   {
+    "uid": "Belgium:3235",
+    "plate_ann_id": 3254,
+    "area_px": 462663,
+    "split": "test",
+    "kind": "area",
+    "plate": "ARMS_BelgiumCoast_AJJC86_20200506_20201012_3574129"
+   },
+   {
+    "uid": "Belgium:2486",
+    "plate_ann_id": 2500,
+    "area_px": 242229,
+    "split": "train",
+    "kind": "area",
+    "plate": "ARMS_BelgiumCoast_AJJC86_20200506_20201012_3574117"
+   },
+   {
+    "uid": "Belgium:1256",
+    "plate_ann_id": 1261,
+    "area_px": 123738,
+    "split": "train",
+    "kind": "area",
+    "plate": "ARMS_BelgiumCoast_AJJC81_20200506_20201012_3574086"
+   }
+  ],
+  "Belgium/Serpulidae": [
+   {
+    "uid": "Belgium:1292",
+    "plate_ann_id": 1297,
+    "area_px": 722,
+    "split": "train",
+    "kind": "instance",
+    "plate": "ARMS_BelgiumCoast_AJJC81_20200506_20201012_3574086"
+   },
+   {
+    "uid": "Belgium:3587",
+    "plate_ann_id": 3608,
+    "area_px": 626,
+    "split": "test",
+    "kind": "instance",
+    "plate": "ARMS_BelgiumCoast_AJJC86_20200506_20201012_3574129"
+   },
+   {
+    "uid": "Belgium:3970",
+    "plate_ann_id": 3993,
+    "area_px": 497,
+    "split": "train",
+    "kind": "instance",
+    "plate": "ARMS_BelgiumCoast_AJJC86_20200506_20201012_3574135"
+   }
+  ],
+  "Belgium/Spirobranchus": [
+   {
+    "uid": "Belgium:1316",
+    "plate_ann_id": 1321,
+    "area_px": 11442,
+    "split": "train",
+    "kind": "instance",
+    "plate": "ARMS_BelgiumCoast_AJJC81_20200506_20201012_3574086"
+   },
+   {
+    "uid": "Belgium:1120",
+    "plate_ann_id": 1123,
+    "area_px": 8836,
+    "split": "train",
+    "kind": "instance",
+    "plate": "ARMS_BelgiumCoast_AJJC81_20200506_20201012_3574083"
+   },
+   {
+    "uid": "Belgium:1094",
+    "plate_ann_id": 1097,
+    "area_px": 8188,
+    "split": "train",
+    "kind": "instance",
+    "plate": "ARMS_BelgiumCoast_AJJC81_20200506_20201012_3574083"
+   }
+  ],
+  "Crete/Ciona": [
+   {
+    "uid": "Crete:7966",
+    "plate_ann_id": 7993,
+    "area_px": 88466,
+    "split": "train",
+    "kind": "instance",
+    "plate": "712183829_ARMS_1HERP_20200903_20210625_3B_002"
+   },
+   {
+    "uid": "Crete:5056",
+    "plate_ann_id": 5074,
+    "area_px": 68413,
+    "split": "test",
+    "kind": "instance",
+    "plate": "430059175_ARMS_1HERP_20200903_20210625_6B_002"
+   },
+   {
+    "uid": "Crete:3312",
+    "plate_ann_id": 3323,
+    "area_px": 42254,
+    "split": "train",
+    "kind": "instance",
+    "plate": "351167083_ARMS_1HERP_20200903_20210625_9-CE-92_002"
+   }
+  ],
+  "Crete/Rhodophyta": [
+   {
+    "uid": "Crete:7250",
+    "plate_ann_id": 7277,
+    "area_px": 378678,
+    "split": "train",
+    "kind": "area",
+    "plate": "539496863_ARMS_1HERP_20200903_20210625_9-CE-A4_002"
+   },
+   {
+    "uid": "Crete:7184",
+    "plate_ann_id": 7207,
+    "area_px": 105716,
+    "split": "train",
+    "kind": "area",
+    "plate": "539496863_ARMS_1HERP_20200903_20210625_9-CE-A4_002"
+   },
+   {
+    "uid": "Crete:7206",
+    "plate_ann_id": 7230,
+    "area_px": 23334,
+    "split": "train",
+    "kind": "area",
+    "plate": "539496863_ARMS_1HERP_20200903_20210625_9-CE-A4_002"
+   }
+  ],
+  "Crete/Serpulidae": [
+   {
+    "uid": "Crete:4151",
+    "plate_ann_id": 4168,
+    "area_px": 15435,
+    "split": "val",
+    "kind": "instance",
+    "plate": "424846957_ARMS_1HERP_20200903_20210625_5B_002"
+   },
+   {
+    "uid": "Crete:4206",
+    "plate_ann_id": 4223,
+    "area_px": 8109,
+    "split": "val",
+    "kind": "instance",
+    "plate": "424846957_ARMS_1HERP_20200903_20210625_5B_002"
+   },
+   {
+    "uid": "Crete:4154",
+    "plate_ann_id": 4171,
+    "area_px": 6522,
+    "split": "val",
+    "kind": "instance",
+    "plate": "424846957_ARMS_1HERP_20200903_20210625_5B_002"
+   },
+   {
+    "uid": "Crete:5175",
+    "plate_ann_id": 5193,
+    "area_px": 5311,
+    "split": "test",
+    "kind": "instance",
+    "plate": "430059175_ARMS_1HERP_20200903_20210625_6B_002"
+   }
+  ],
+  "Crete/Spirobranchus": [
+   {
+    "uid": "Crete:8241",
+    "plate_ann_id": 8281,
+    "area_px": 26781,
+    "split": "train",
+    "kind": "instance",
+    "plate": "712183829_ARMS_1HERP_20200903_20210625_3B_002"
+   },
+   {
+    "uid": "Crete:2691",
+    "plate_ann_id": 2700,
+    "area_px": 7687,
+    "split": "train",
+    "kind": "instance",
+    "plate": "346570882_ARMS_1HERP_20200903_20210625_8-CE-92_002"
+   }
+  ],
+  "Crete/Spirorbinae": [
+   {
+    "uid": "Crete:2931",
+    "plate_ann_id": 2942,
+    "area_px": 1041,
+    "split": "train",
+    "kind": "instance",
+    "plate": "346570882_ARMS_1HERP_20200903_20210625_8-CE-92_002"
+   },
+   {
+    "uid": "Crete:233",
+    "plate_ann_id": 238,
+    "area_px": 595,
+    "split": "train",
+    "kind": "instance",
+    "plate": "146804673_ARMS_1HERP_20200903_20210625_1T_002"
+   },
+   {
+    "uid": "Crete:2062",
+    "plate_ann_id": 2070,
+    "area_px": 564,
+    "split": "test",
+    "kind": "instance",
+    "plate": "344348165_ARMS_1HERP_20200903_20210625_6T_002"
+   }
+  ]
+ }
+}

@@ -1,0 +1,19 @@
+diff --git a/isegm/data/transforms.py b/isegm/data/transforms.py
+index 0a3fd67..366b082 100755
+--- a/isegm/data/transforms.py
++++ b/isegm/data/transforms.py
+@@ -5,7 +5,13 @@ import numpy as np
+ from albumentations.core.serialization import SERIALIZABLE_REGISTRY
+ from albumentations import ImageOnlyTransform, DualTransform
+ from albumentations.core.transforms_interface import to_tuple
+-from albumentations.augmentations import functional as F
++# albumentations 1.x moved resize/keypoint_scale out of augmentations.functional and into
++# augmentations.geometric.functional, so the original import gives an
++# AttributeError: module ... has no attribute 'resize' the first time UniformRandomResize
++# fires. Every F.* call in this file (resize x4, keypoint_scale) is geometric, so pointing
++# the alias at the new module is the whole fix. SegNext's copy of this file already imports
++# from the geometric path -- this only brings SimpleClick's in line with it.
++from albumentations.augmentations.geometric import functional as F
+ from isegm.utils.misc import get_bbox_from_mask, expand_bbox, clamp_bbox, get_labels_with_sizes
+ 
+ 
