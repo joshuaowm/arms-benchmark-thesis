@@ -7,6 +7,11 @@ Brittany, 2026).
 **Joshua Owen Mangotang**, supervised by Dr. Minh-Tan Pham, Dr. Hoàng-Ân Lê (University of
 South Brittany) and Gella Getachew Workineh (University of Salzburg).
 
+<p align="center">
+  <img src="assets/qualitative_predictions.jpg" width="880" alt="Masks predicted by the six interactive models from a single click on two organisms">
+  <br><em>Masks from each interactive model after a single click. Green: prediction and annotation agree; red: only one of them.</em>
+</p>
+
 ## Overview
 
 The benchmark measures how well existing segmentation models can take over the expert
@@ -28,6 +33,11 @@ fixed plate-disjoint splits.
 the five most frequent classes at each site (eight in total, two shared). A phylum-level label
 set (five phyla per site, three shared, seven combined) is used with YOLO11s-seg.
 
+<p align="center">
+  <img src="assets/plate_annotations.jpg" width="520" alt="ARMS plates from Belgium and Crete with their pixel-level annotations">
+  <br><em>Plates from Belgium (left) and Crete (right) with their annotations. Images: ARMSDS, CC BY 4.0.</em>
+</p>
+
 **Metrics.** Macro IoU over ten seeded prompt draws for one-pass prompts; micro IoU, NoC@85 and
 NoF@85 for 20-click iterative correction (RITM protocol); matched-mask IoU, mAP and AP50 at a
 0.5 confidence threshold for the automatic models.
@@ -36,6 +46,7 @@ NoF@85 for 20-click iterative correction (RITM protocol); matched-mask IoU, mAP 
 
 ```
 arms/           shared library: prompt samplers, datasets, early stopping, taxonomy
+assets/         figures used in this README
 configs/        OSISeg configuration
 env/            conda environment and pip freeze
 eval/           evaluation of the interactive models (multieval.py), latency benchmark
